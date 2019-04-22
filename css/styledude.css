@@ -1,5 +1,5 @@
 .fruit-image {
-    background-image: url("../images/fruit.jpg");
+    background-image: url("../images/.jpg");
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,6 +17,21 @@
 
 .cupcake-image {
     height: 500px;
-    background: url("../images/cupcake.jpg");
+    background: url("../images/.jpg");
     background-repeat: no-repeat;
 }
+
+.grey {
+    background: rgb(207, 207, 207);
+    height: 300px;
+  }
+
+  .gray {
+    background: rgb(229, 230, 233);
+    height: 300px;
+  }
+
+  .blue {
+    background:rgb(207, 207, 207);
+    height: 300px;
+  }
