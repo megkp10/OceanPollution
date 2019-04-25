@@ -9,17 +9,16 @@ body {}
 }
 
 /* CAROUSEL STYLING */
-.my-custom-carousel .carousel-caption>h5 {
-    color: grey;
+.my-custom-carousel .carousel-caption > h5 {
+    color:grey;
     font-style: bold;
     font-size: 30px;
 }
 
-.my-custom-carousel .carousel-caption>p {
-    color: gray;
+.my-custom-carousel .carousel-caption > p {
+    color:gray;
 }
-
-.my-custom-carousel .carousel-indicators>li {
+.my-custom-carousel .carousel-indicators > li {
     width: 20px;
     height: 20px;
     border-radius: 50%;
@@ -28,12 +27,12 @@ body {}
     opacity: 0.6;
 }
 
-.my-custom-carousel .carousel-indicators>li.active {
-    background-color: lightseagreen;
+.my-custom-carousel .carousel-indicators > li.active {
+    background-color:lightseagreen;
     opacity: 1;
 }
 
-.my-custom-carousel .carousel-control-prev,
+.my-custom-carousel .carousel-control-prev, 
 .my-custom-carousel .carousel-control-next {
     opacity: 1;
 }
@@ -53,7 +52,7 @@ body {}
 }
 
 .placeholder-image {
-    background-image: url(".. assets/images/download.png");
+    background-image: url("download.png");
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +61,7 @@ body {}
 
 .ocean-image {
     height: 400px;
-    background: url("../assets/images/ocean.jpg");
+    background: url("ocean.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 30%;
@@ -71,7 +70,7 @@ body {}
 
 .empty-image {
     height: 500px;
-    background: url("assets/images/640x360.png");
+    background: url("640x360.png");
     background-repeat: no-repeat;
 }
 
