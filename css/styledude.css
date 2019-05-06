@@ -1,11 +1,9 @@
-body {}
+body {
 
 .content {
-    max-width: 2000px;
     background: lightcyan;
     margin: auto;
     padding: 70px;
-
 }
 
 /* CAROUSEL STYLING */
@@ -73,6 +71,13 @@ body {}
     height: 500px;
     background: url("assets/images/640x360.png");
     background-repeat: no-repeat;
+}
+
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
 }
 
 .background {
