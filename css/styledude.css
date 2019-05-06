@@ -1,9 +1,35 @@
 body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.large-font {
+    font-size: 48px;
+  }
+  
 
 .content {
-    background: lightcyan;
+    max-width: 970px;
+    background: white;
     margin: auto;
     padding: 70px;
+}
+
+.container {
+    padding: 64px;
+}
+
+/* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.content {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
 }
 
 /* CAROUSEL STYLING */
@@ -27,7 +53,7 @@ body {
 }
 
 .my-custom-carousel .carousel-indicators>li.active {
-    background-color: lightseagreen;
+    background-color: teal;
     opacity: 1;
 }
 
@@ -71,13 +97,6 @@ body {
     height: 500px;
     background: url("assets/images/640x360.png");
     background-repeat: no-repeat;
-}
-
-.main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
 }
 
 .background {
