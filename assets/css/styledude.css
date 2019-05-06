@@ -1,38 +1,66 @@
-body {}
+body {
+    margin: auto;
+   
+}
 
+.large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
 .content {
-    max-width: 2000px;
-    background: lightcyan;
+    max-width: 100%;
+    background: white;
     margin: auto;
     padding: 70px;
+}
 
+.container {
+    padding: 64px;
+}
+
+/* Clear floats */
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.content {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
 }
 
 /* CAROUSEL STYLING */
-.my-custom-carousel .carousel-caption > h5 {
-    color:grey;
+.my-custom-carousel .carousel-caption>h5 {
+    color: grey;
     font-style: bold;
     font-size: 30px;
 }
 
-.my-custom-carousel .carousel-caption > p {
-    color:gray;
+.my-custom-carousel .carousel-caption>p {
+    color: gray;
 }
-.my-custom-carousel .carousel-indicators > li {
+
+.my-custom-carousel .carousel-indicators>li {
     width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    height: 8px;
+    border-radius: 10%;
     margin: 0 10px;
-    background-color: lightcyan;
+    background-color: lightslategrey;
     opacity: 0.6;
 }
 
-.my-custom-carousel .carousel-indicators > li.active {
-    background-color:lightseagreen;
+.my-custom-carousel .carousel-indicators>li.active {
+    background-color:steelblue;
     opacity: 1;
 }
 
-.my-custom-carousel .carousel-control-prev, 
+.my-custom-carousel .carousel-control-prev,
 .my-custom-carousel .carousel-control-next {
     opacity: 1;
 }
@@ -52,8 +80,8 @@ body {}
 }
 
 .placeholder-image {
-    background-image: url("download.png");
-    height: 200px;
+    background-image: url("../assets/images/download.png");
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +89,7 @@ body {}
 
 .ocean-image {
     height: 400px;
-    background: url("ocean.jpg");
+    background: url("../assets/images/ocean.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 30%;
@@ -70,17 +98,11 @@ body {}
 
 .empty-image {
     height: 500px;
-    background: url("640x360.png");
+    background: url("../assets/images/640x360.png");
     background-repeat: no-repeat;
 }
 
-.background {
-    background-image: url(ocean.jpg);
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 100%;
-}
-
+/* light blue=0088FF dark blue=005198*/
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
