@@ -15,7 +15,7 @@ body {
     max-width: 100%;
     background: white;
     margin: auto;
-    padding: 70px;
+    padding: 10px;
 }
 
 .container {
@@ -97,7 +97,7 @@ body {
 }
 
 .empty-image {
-    height: 500px;
+    height: 400px;
     background: url("../assets/images/640x360.png");
     background-repeat: no-repeat;
 }
