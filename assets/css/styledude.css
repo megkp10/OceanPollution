@@ -79,9 +79,9 @@ body {
     }
 }
 
-.jelly-image {
+.jelly {
     height: 400px;
-    background: url("../images/jelly.jpg");
+    background: url("../image/jelly.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 30%; 
