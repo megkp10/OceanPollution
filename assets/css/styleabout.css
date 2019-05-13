@@ -1,0 +1,23 @@
+body {
+    margin: auto;
+   
+}
+
+.large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+.content {
+    max-width: 100%;
+    background: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.container {
+    padding: 64px;
+}
