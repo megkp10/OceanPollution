@@ -32,25 +32,26 @@ body {
     font-size: 16px;
     cursor: pointer;
     background-color: #4CAF50;
-  }
-  .btn {
+}
+
+.btn {
     border: 2px solid black;
     background-color: white;
     color: black;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  .more {
+}
+
+.more {
     border-color: steelblue;
     color: steelblue;
-  }
-  
-  .more:hover {
+}
+
+.more:hover {
     background-color: steelblue;
     color: white;
-  }
+}
 
 /* Style inputs */
 input[type=text],
@@ -96,6 +97,24 @@ input[type=submit]:hover {
     content: "";
     display: table;
     clear: both;
+}
+
+.bar[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.bar[type=text]:focus {
+    width: 100%;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
